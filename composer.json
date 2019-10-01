@@ -1,0 +1,17 @@
+{
+    "name": "styde/oop",
+    "description": "practica oop",
+    "type": "proyect",
+    "license": "MIT",
+    "authors": [{
+        "name": "Manuel Jesus",
+        "email": "51723126+jesusreeb@users.noreply.github.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "files": ["src/helpers.php"],
+            "Styde\\": "src/"
+        }
+    }
+}
